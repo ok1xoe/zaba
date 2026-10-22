@@ -435,8 +435,8 @@
         Z.text(128, 108, 'POZOR NA POTÁPĚJÍCÍ SE ŽELVY', 5, { align: 'center' });
         Z.text(128, 154, 'ŠIPKY/WASD SKÁČOU  P PAUZA  M ZVUK', 7, { align: 'center' });
         Z.text(128, 164, 'MOUCHA +200  ŽÁBA-DÍVKA +200', 11, { align: 'center' });
-        if ((G.t >> 5) & 1) { Z.text(128, 174, 'STISKNI MEZERNÍK', 14, { align: 'center' }); }
-        Z.text(128, 183, 'REKORD ' + Z.pad(Z.hi.get('zaba'), 5), 6, { align: 'center' });
+        if ((G.t >> 5) & 1) { Z.text(128, 173, 'STISKNI MEZERNÍK', 14, { align: 'center' }); }
+        Z.text(128, 182, 'REKORD ' + Z.pad(Z.hi.get('zaba'), 5), 6, { align: 'center' });
     }
     function drawOver() {
         drawPlay();
